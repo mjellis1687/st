@@ -36,8 +36,8 @@ See the man page for additional details.
 
 ## Patches
 
-- [boxdraw](https://st.suckless.org/patches/boxdraw/) via [patch](https://st.suckless.org/patches/boxdraw/st-boxdraw_v2-0.8.5.diff): Custom rendering of lines/blocks/braille characters for gapless alignment
-- 
+- [boxdraw](https://st.suckless.org/patches/boxdraw/) via [patch](https://st.suckless.org/patches/boxdraw/st-boxdraw_v2-0.8.5.diff): Custom rendering of lines/blocks/braille characters for gapless alignment.
+- [font2](https://st.suckless.org/patches/font2/) via [patch](https://st.suckless.org/patches/font2/st-font2-0.8.5.diff): This patch allows to add spare font besides default.
 
 ### Additional Features
 
