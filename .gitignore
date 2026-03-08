@@ -4,5 +4,4 @@
 *.rej
 config.h
 st
-st-*
 tags
