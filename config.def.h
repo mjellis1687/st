@@ -273,9 +273,9 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_bracketright,chgalpha,       {.f =  0} }, /* Reset opacity */
 	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
     { ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
-	// { MODKEY,               XK_l,           externalpipe,   {.v = openurlcmd } },
-	// { MODKEY,               XK_y,           externalpipe,   {.v = copyurlcmd } },
-	// { MODKEY,               XK_o,           externalpipe,   {.v = copyoutput } },
+	{ MODKEY,               XK_l,           externalpipe,   {.v = openurlcmd } },
+	{ MODKEY,               XK_y,           externalpipe,   {.v = copyurlcmd } },
+	{ MODKEY,               XK_o,           externalpipe,   {.v = copyoutput } },
 };
 
 /*
