@@ -41,6 +41,7 @@ See the man page for additional details.
 - [ligatures](https://st.suckless.org/patches/ligatures/) via [patch](https://st.suckless.org/patches/ligatures/0.9.3/st-ligatures-boxdraw-20251007-0.9.3.diff): This patch adds proper drawing of ligatures.
 - [xresources](https://st.suckless.org/patches/xresources/) via [patch](https://st.suckless.org/patches/xresources/st-xresources-20230320-45a15676.diff): This patch adds the ability to configure st via Xresources.
 - [changealpha](https://st.suckless.org/patches/changealpha/) via [patch](https://st.suckless.org/patches/changealpha/st-alpha-changealpha-20251027-0.9.3.diff): A patch that allows for updating terminal transparency natively.
+- [scrollback](https://st.suckless.org/patches/scrollback/) via [patch](https://st.suckless.org/patches/scrollback/st-scrollback-0.9.2.diff): Scroll back through terminal output using Shift+{PageUp, PageDown}.
 
 ### Additional Features
 
