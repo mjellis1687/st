@@ -40,6 +40,7 @@ See the man page for additional details.
 - [font2](https://st.suckless.org/patches/font2/) via [patch](https://st.suckless.org/patches/font2/st-font2-0.8.5.diff): This patch allows to add spare font besides default.
 - [ligatures](https://st.suckless.org/patches/ligatures/) via [patch](https://st.suckless.org/patches/ligatures/0.9.3/st-ligatures-boxdraw-20251007-0.9.3.diff): This patch adds proper drawing of ligatures.
 - [xresources](https://st.suckless.org/patches/xresources/) via [patch](https://st.suckless.org/patches/xresources/st-xresources-20230320-45a15676.diff): This patch adds the ability to configure st via Xresources.
+- [changealpha](https://st.suckless.org/patches/changealpha/) via [patch](https://st.suckless.org/patches/changealpha/st-alpha-changealpha-20251027-0.9.3.diff): A patch that allows for updating terminal transparency natively.
 
 ### Additional Features
 
