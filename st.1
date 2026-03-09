@@ -142,23 +142,49 @@ Print the full screen to the
 Print the selection to the
 .I iofile.
 .TP
-.B Ctrl-Shift-Page Up
-Increase font size.
-.TP
-.B Ctrl-Shift-Page Down
-Decrease font size.
-.TP
-.B Ctrl-Shift-Home
+.B Alt-Shift-Home
 Reset to default font size.
 .TP
-.B Ctrl-Shift-y
-Paste from primary selection (middle mouse button).
-.TP
-.B Ctrl-Shift-c
+.B Alt-c
 Copy the selected text to the clipboard selection.
 .TP
-.B Ctrl-Shift-v
+.B Alt-v or Shift-Insert
 Paste from the clipboard selection.
+.TP
+.B Alt-Shift-Y
+Paste from primary selection (middle mouse button).
+.TP
+.B Alt-Shift-K/J or Alt-Shift-Page Up/Page Down or Alt-Shift-Mouse Wheel
+Increase or decrease font size.
+.TP
+.B Alt-Shift-U/D
+Increase or decrease font size increment by 2.
+.TP
+.B Alt-Shift-Home
+Reset to default font size.
+.TP
+.B Alt-Page Up/Page Down or Alt-j/k or Alt-Up/Down or Alt-Mouse Wheel
+Scroll up/down one line at a time.
+.TP
+.B Alt-u/d or Alt-Page Up/Page Down
+Scroll up/down one screen at a time.
+.TP
+.B Alt-a/s
+Increase or decrease opacity/alpha value (make window more or less transparent).
+.TP
+.B Alt-Shift-A
+Reset opacity.
+.TP
+.B Alt-l
+Show dmenu menu of all URLs on screen and choose one to open.
+.TP
+.B Alt-y
+Show dmenu menu of all URLs on screen and choose one to copy.
+.TP
+.B Alt-o
+Show dmenu menu of all recently run commands and copy the output of the chosen command to the clipboard.
+.I xclip
+required.
 .SH CUSTOMIZATION
 .B st
 can be customized by creating a custom config.h and (re)compiling the source
@@ -172,6 +198,4 @@ See the LICENSE file for the terms of redistribution.
 .BR utmp (1),
 .BR stty (1),
 .BR scroll (1)
-.SH BUGS
-See the TODO file in the distribution.
 
